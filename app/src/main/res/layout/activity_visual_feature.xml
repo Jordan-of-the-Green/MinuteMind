@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#75018786"
+    android:id="@+id/layout"
+    tools:context=".VisualActivity">
+
+    <LinearLayout
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/mm"
+            android:layout_width="108dp"
+            android:layout_height="83dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/opsc_logo" />
+
+        <TextView
+            android:textColor="@android:color/holo_orange_light"
+            android:id="@+id/signin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="50dp"
+            android:gravity="center"
+            android:text="Visual Proof"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/editTextMinimumNumber"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30sp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Minimum Amount in Hours"
+        android:textColorHint="@color/white"
+        android:minHeight="48dp"
+        android:singleLine="true"
+        android:textSize="20sp"
+        tools:ignore="TextFields,TextSizeCheck,VisualLintTextFieldSize"
+        android:autofillHints=""
+        />
+
+    <EditText
+        android:id="@+id/editTextMaximumNumber"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30sp"
+        android:ems="10"
+        android:hint="Maximum Amount in Hours"
+        android:textColorHint="@color/white"
+        android:minHeight="48dp"
+        android:textSize="20dp"
+        tools:ignore="Autofill,SpUsage,TextFields,TextSizeCheck,VisualLintTextFieldSize" />
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Visual Format: 1 Month"
+        android:id="@+id/etTotalhours"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_marginHorizontal="13dp"
+        android:layout_marginLeft="0dp"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:singleLine="true"
+        android:text="Check Answer" />
+
+</LinearLayout>

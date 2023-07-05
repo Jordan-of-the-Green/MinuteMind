@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#75018786"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/mm"
+            android:layout_width="108dp"
+            android:layout_height="83dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/opsc_logo" />
+
+        <TextView
+            android:textColor="@android:color/holo_orange_light"
+            android:id="@+id/signin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="50dp"
+            android:gravity="center"
+            android:text="Minute Mind"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="1dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btHomepage"
+                android:layout_width="140dp"
+                android:layout_height="80dp"
+                android:layout_marginHorizontal="13dp"
+                android:layout_marginLeft="1dp"
+                android:backgroundTint="@color/design_default_color_secondary"
+                android:onClick="btHomePage"
+                android:singleLine="true"
+                android:text="HOMEPAGE" />
+
+            <Button
+                android:id="@+id/btTimesheet"
+                android:layout_width="140dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginHorizontal="13dp"
+                android:singleLine="true"
+                android:backgroundTint="@color/design_default_color_secondary"
+                android:text="TIMESHEET"/>
+
+        </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="1dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btNotifications"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginHorizontal="13dp"
+            android:singleLine="true"
+            android:backgroundTint="@color/design_default_color_secondary"
+            android:onClick="btHomePage"
+            android:text="VIEW ENTRY"/>
+
+        <Button
+            android:id="@+id/btProfile"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginHorizontal="13dp"
+            android:singleLine="true"
+            android:backgroundTint="@color/design_default_color_secondary"
+            android:text="PROFILE"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="1dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_marginHorizontal="13dp"
+            android:layout_marginLeft="0dp"
+            android:backgroundTint="@color/design_default_color_secondary"
+            android:singleLine="true"
+            android:text="Proof" />
+
+        <Button
+            android:id="@+id/btGoals"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_marginHorizontal="13dp"
+            android:layout_marginLeft="0dp"
+            android:backgroundTint="@color/design_default_color_secondary"
+            android:singleLine="true"
+            android:text="Graph" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="1dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btSettings"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginHorizontal="13dp"
+            android:singleLine="true"
+            android:backgroundTint="@color/design_default_color_secondary"
+            android:text="SETTINGS" />
+
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_marginHorizontal="13dp"
+            android:layout_marginLeft="0dp"
+            android:backgroundTint="@color/design_default_color_secondary"
+            android:singleLine="true"
+            android:text="LOGOUT" />
+
+
+
+    </TableRow>
+
+
+</LinearLayout>
+
+
+

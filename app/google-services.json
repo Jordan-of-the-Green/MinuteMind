@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "137566696682",
+    "project_id": "opsc7311-poe-dce93",
+    "storage_bucket": "opsc7311-poe-dce93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137566696682:android:19c62575d29ad916549393",
+        "android_client_info": {
+          "package_name": "com.administrator.minutemind"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzB6Uji368Y3ziku1Kk16h31WxOgVCtc8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

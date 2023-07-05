@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <vector
+        android:width="365dp"
+        android:height="760dp"
+        android:viewportWidth="365"
+        android:viewportHeight="760"
+        android:radius="10dp"
+        >
+
+    </vector>
+</selector>

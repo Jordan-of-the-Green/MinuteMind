@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#75018786"
+    tools:context=".StartPageActivity">
+
+    <LinearLayout
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@null"
+        android:contentDescription="image1"
+        app:srcCompat="@drawable/opsc_logo" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:hint="sentence1"
+        android:singleLine="true"
+        android:text="Track and manage your daily activities"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="20sp"
+        android:visibility="visible"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/sent2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="A simple tracker can help analyze the mind’s
+        consumption for each activity."
+        android:textSize="17sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Let’s get going!"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btHomePage"
+        android:layout_width="200dp"
+        android:layout_height="74dp"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:text="Homepage"
+        android:textColor="@color/white" />
+
+</LinearLayout>
