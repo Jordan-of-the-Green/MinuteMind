@@ -49,10 +49,10 @@ Step 7
 
 - HomePage button: Will show the Home Page.
 
-- Timesheet button: Will be transferred to the timesheet page, where they may willingly add a new timesheet entry to the application by specifying the name they would like to save the timesheet as, the category they wish to classify the entry as (e.g. regular working hours or overtime) the date to wish the timesheet entry was issued, the start time and completion time that this entry will be valid for, as well as the description of the entry. Once the process is completed, the user will be prompted to select three different button options namely; to "Save" the timesheet entry, go to "Homepage" or to view the entries.
-	   1) If the user selects to "Save" the timesheet entry they created by selecting the button prompt, they will receive an in-built, hard-coded message from the MinuteMind team that will inform the user that their timesheet information was saved successfully to the system.
-     	   2) If the user clicks on the Home Page button from the Timesheet entry page, they will return to the main Dashboard.
-           3) View Entry button: Will be able to view all timesheet entries created through the use of an Android recyclerview functionality.
+- Timesheet button: Will be transferred to the timesheet page, where they may willingly add a new timesheet entry to the application by specifying the name they would like to save the timesheet as, the category they wish to classify the entry as (e.g. regular working hours or overtime) the date to wish the timesheet entry was issued, the start time and completion time that this entry will be valid for, as well as the description of the entry. Once the process is completed, the user will be prompted to select three different button options namely; to "Save" the timesheet entry, go to "Homepage" or to view the entries.  
+	   1) If the user selects to "Save" the timesheet entry they created by selecting the button prompt, they will receive an in-built, hard-coded message from the MinuteMind team that will inform the user that their timesheet information was saved successfully to the system.  
+     	   2) If the user clicks on the Home Page button from the Timesheet entry page, they will return to the main Dashboard.  
+           3) View Entry button: Will be able to view all timesheet entries created through the use of an Android recyclerview functionality.  
 
 ~ View Entry button: Will be able to view all timesheet entries created through the use of an Android recyclerview functionality.
 
