@@ -8,8 +8,6 @@ Mishra Mohammed - ST10083182
 Daylin Shadrach - ST10083296  
 Cameron Pillay - ST10083199
 
-   * Minute Mind - A time-tracking application was designed and created with the goal of allowing its users to manage, record as well and view the allocated time that teams of software developers spend on client-issued projects.
-
 # Description:
 This application was created for users to sign up/log in to an account, and the saving of timesheet entries is done using a Firebase authentication medium. Once an authorized user is logged in to use the application, they will be allowed to enter timesheet entries to specify the categories as well as the hours worked on each user project, which can be displayed and documented to the user. We as the MinuteMind software development creation team designed this application by using the installed features which consisted of Android Studio Electric Eel | 2022.1.1 (Jan 2023) as well as the in-built Android Studio emulator (the user must select API 25 as the device for the application to be compatible with the chosen emulator as conflicting choice of device selection may not execute the project) using the Kotlin coding language, which is required by the Varsity College (Durban-North campus) to be used to successfully complete this project. 
 
@@ -52,7 +50,7 @@ Step 7
 - HomePage button: Will show the Home Page.
 
 - Timesheet button: Will be transferred to the timesheet page, where they may willingly add a new timesheet entry to the application by specifying the name they would like to save the timesheet as, the category they wish to classify the entry as (e.g. regular working hours or overtime) the date to wish the timesheet entry was issued, the start time and completion time that this entry will be valid for, as well as the description of the entry. Once the process is completed, the user will be prompted to select three different button options namely; to "Save" the timesheet entry, go to "Homepage" or to view the entries.
-	   1) If the user selects to "Save" the timesheet entry they created by selecting the button prompt, they will receive an in-built, hard-coded message by the MinuteMind team that will inform the user that their timesheet information was saved successfully to the system.
+	   1) If the user selects to "Save" the timesheet entry they created by selecting the button prompt, they will receive an in-built, hard-coded message from the MinuteMind team that will inform the user that their timesheet information was saved successfully to the system.
      	   2) If the user clicks on the Home Page button from the Timesheet entry page, they will return to the main Dashboard.
            3) View Entry button: Will be able to view all timesheet entries created through the use of an Android recyclerview functionality.
 
